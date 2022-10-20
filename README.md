@@ -9,8 +9,8 @@ tensorboardX, numpy
 ```
 
 ### Train
-We implement the described models based on the [G-Transformer](https://github.com/baoguangsheng/g-transformer) for training and evaluation.
-Please follow the tutorial of G-Transformer to first preprocess the data, and then train a sentence-level Transformer. For finetuning baded on the sent Transformer, please follow this script:
+We implement the described models based on the [G-Transformer](https://github.com/baoguangsheng/g-transformer) for training and evaluating.
+Please follow the tutorial of G-Transformer to first preprocess the data (download from [SAN](https://github.com/sameenmaruf/selective-attn/tree/master/data)), and then train a sentence-level Transformer. For finetuning baded on the sent Transformer, please follow this script:
 ```
 #example of training on dataset News
 user_dir=./code/
